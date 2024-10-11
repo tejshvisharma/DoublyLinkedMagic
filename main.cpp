@@ -338,10 +338,7 @@ int main() {
             case 6:
                 list.displayListWithPointers();
                 break;
-            case 7:
-                list.undoLastAction();
-                break;
-            case 8:
+             case 7:
                 cout << GREEN << "\n🔚 Exiting the program. Goodbye!\n" << RESET;
                 return 0;
             default:
